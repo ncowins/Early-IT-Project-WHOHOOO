@@ -1,1 +1,63 @@
-YIPPEE!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hughes STEM High School</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Welcome to Hughes STEM High School</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#video">Welcome Video</a></li>
+                    <li><a href="#blog">Student Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Hughes STEM High School is a place where learning meets innovation. Our focus is on Science, Technology, Engineering, and Math, preparing students for the future.</p>
+    </section>
+
+    <section id="video">
+        <h2>Welcome Video</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ygtVUlOb5W8" 
+            title="Hughes STEM High School Welcome Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Student Blog</h2>
+        <div class="blog-container">
+            <form id="blogForm">
+                <label for="blogTitle">Blog Title:</label>
+                <input type="text" id="blogTitle" name="title" placeholder="Enter blog title" required>
+                <label for="blogContent">Blog Content:</label>
+                <textarea id="blogContent" name="content" rows="5" placeholder="Write your blog here" required></textarea>
+                <button type="submit">Post Blog</button>
+            </form>
+            <div id="blogPosts"></div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For any inquiries, please contact us at <a href="mailto:contact@hughesstemhs.org">contact@hughesstemhs.org</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hughes STEM High School. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
