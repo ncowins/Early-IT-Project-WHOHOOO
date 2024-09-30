@@ -25,7 +25,11 @@ list-style-type: none;
   overflow: hidden;
   background-color: #333;
 }
-
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
 nav li {
     display: inline;
     margin: 0 15px;
@@ -42,6 +46,7 @@ nav li a {
 nav li a:hover {
   background-color: #111;
 }
+
 section {
     margin: 20px auto;
     padding: 20px;
