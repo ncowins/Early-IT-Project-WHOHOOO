@@ -66,32 +66,3 @@ h2 {
 
 #blogForm input, #blogForm textarea, #blogForm button {
     margin: 10px 0;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-#blogForm button {
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
-}
-
-#blogForm button:hover {
-    background-color: #45a049;
-}
-
-#blogPosts {
-    margin-top: 20px;
-    background-color: #f9f9f9;
-    padding: 15px;
-    border-radius: 5px;
-}
-
-.blog-post {
-    margin-bottom: 20px;
-    padding: 15px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
