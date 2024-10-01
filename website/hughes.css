@@ -39,7 +39,7 @@ nav li {
 
 nav li a {
   display: block;
-  color: white;
+  color: red;
   text-align: center;
   font-family: Verdana, Helvetica, sans-serif;
   padding: 14px 16px;
@@ -47,7 +47,7 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: #702727;
+  background-color: #c28a8a;
 }
 
 section {
