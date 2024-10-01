@@ -11,6 +11,9 @@ header {
     color: white;
     padding: 20px 0;
     text-align: center;
+    background-image: url("Hughes-STEM-Logo.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
 }
 
 header h1 {
