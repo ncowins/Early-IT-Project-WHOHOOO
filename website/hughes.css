@@ -12,16 +12,18 @@ header {
         color: white;
     padding: 20px 0;
     text-align: center;
-    background-image: url("Hughes-STEM-Logo.jpg");
-    background-position: right;
-    line-height: 400%;
-    background-repeat: no-repeat;
-
 }
 
 header h1 {
     margin: 0;
     font-size: 36px;
+}
+
+nav {
+    background-image: url("Hughes-STEM-Logo.jpg");
+    background-position: right;
+    line-height: 100%;
+    background-repeat: no-repeat;
 }
 
 nav ul {
